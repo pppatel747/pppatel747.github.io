@@ -30,7 +30,7 @@ twitter_username: pavn747
 github_username:  pppatel747
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
