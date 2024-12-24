@@ -4,7 +4,7 @@ title:  "Home Automation"
 date:   2024-12-23 17:31:17 -0500
 categories: jekyll update
 ---
-## Revolutionizing Home Control: Introducing Our Interactive Home Automation Dashboard
+### Revolutionizing Home Control: Introducing Our Interactive Home Automation Dashboard
 
 In the ever-evolving world of smart homes, staying ahead means providing tools that are not only functional but also intuitive and engaging. We are thrilled to unveil our latest innovation: the Interactive Home Automation Dashboard. This cutting-edge platform offers homeowners a precise graphical representation of their floor plan, seamlessly integrating all automation devices into a single, user-friendly interface. Let’s delve into how this dashboard is set to transform the way you interact with your home.
 
