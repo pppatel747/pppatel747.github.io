@@ -30,7 +30,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   and security systems to integrating smart lighting and thermostats, 
   we have got you covered. Join us as we explore the future of living smarter, one device at a time!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://krishiv.ca" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pavn747
 github_username: 
 
