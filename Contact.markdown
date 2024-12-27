@@ -7,5 +7,8 @@ permalink: /about/contact/
 ## Twitter
 Contact me on twitter using @pavn747
 
-## Github
-Contact me on github using pppatel747
+## Instagram
+Contact us on instagram using @krishiv_smarthome.
+
+## Facebook
+Contact us on facebook using Krishiv Smart home.
