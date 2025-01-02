@@ -1,12 +1,32 @@
 /* All Good :/ */
-.entitystate-on {
+#floorplan  {
+  padding: 10px;
+}
+  
+/* #floorplan svg{
+  height: 100vh!important;
+ } */
+  
+svg tspan {
+  fill: var(--primary-text-color);
+  }
+
+/* SVG shapes */
+
+svg, svg * {
+  vector-effect: non-scaling-stroke !important;
+  pointer-events: all !important;
+}
+  
+  
+.light-on {
     opacity: 0 !important;
     transition: opacity .25s;
     -moz-transition: opacity .25s;
     -webkit-transition: opacity .25s;
 }
 
-.entitystate-off {
+.light-off {
     /*opacity: 0.9;*/
     fill: rgb(2626269d)!important;
     transition: opacity .25s;
