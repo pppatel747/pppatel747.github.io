@@ -1,0 +1,76 @@
+title: My Home
+views:
+  - title: Chandler Terrace
+    path: floorplan
+    theme: Google Dark Theme
+    panel: true
+    type: panel
+    badges: []
+    cards:
+      - config:
+          console_log_level: info
+          defaults:
+            hover_action: hover-info
+            tap_action: more info
+          image: /local/floorplan/New home/MyHome.svg
+          rules:
+            - element: Light-bedroom
+              entity: switch.bedroom_plug
+              state_action:
+                action: call-service
+                service: floorplan.class_set
+                service_data: entitystate-${entity.state}
+              tap_action:
+                action: call-service
+                service: homeassistant.toggle
+            - element: Light-living_room
+              entity: switch.wifi_plug
+              state_action:
+                action: call-service
+                service: floorplan.class_set
+                service_data: entitystate-${entity.state}
+              tap_action:
+                action: call-service
+                service: homeassistant.toggle
+            - element: Light-kitchen_
+              entity: switch.wifi_plug
+              state_action:
+                action: call-service
+                service: floorplan.class_set
+                service_data: entitystate-${entity.state}
+              tap_action:
+                action: call-service
+                service: homeassistant.toggle
+            - element: Light-home_office
+              entity: switch.office_plug
+              state_action:
+                action: call-service
+                service: floorplan.class_set
+                service_data: entitystate-${entity.state}
+              tap_action:
+                action: call-service
+                service: homeassistant.toggle
+            - element: living-flame
+              entity: switch.plug_heater
+              state_action:
+                action: call-service
+                service: floorplan.class_set
+                service_data: flame-${entity.state}
+            - element: living-heater
+              entity: switch.plug_heater
+              tap_action:
+                action: call-service
+                service: homeassistant.toggle
+            - element: sensor.temperature
+              entity: sensor.temph_temperature
+              state_action:
+                - service: floorplan.text_set
+                  service_data: >-
+                    ${(entity.state !== undefined) ? Math.round(entity.state
+                    *10) / 10 + "°" : "unknown"}
+                - service: floorplan.class_set
+                  service_data:
+                    class: static-temp
+          stylesheet: /local/floorplan/New home/MyHome.css
+        full_height: true
+        type: custom:floorplan-card
