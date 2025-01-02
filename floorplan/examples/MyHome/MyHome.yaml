@@ -50,8 +50,7 @@ config:
       entity: sensor.temperature
       state_action:
         - service: floorplan.text_set
-          service_data: '${(entity.state !== undefined) ? Math.round(entity.state
-            *10) / 10 + "�" : "unknown"}'
+          service_data: '${(entity.state !== undefined) ? Math.round(entity.state * 10) / 10 + "°" : "unknown"}'
         - service: floorplan.class_set
           service_data:
             class: 'static-temp'
