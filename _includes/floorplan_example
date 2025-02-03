@@ -12,7 +12,7 @@
 
   <div class="tab">
     <button class="tablinks active" onclick="showTab(event, '{{ e.example_name }}-floorplan')">Floorplan</button>
-    <button class="tablinks" onclick="showTab(event, '{{ e.example_name }}-yaml')">YAML</button>
+    <!-- <button class="tablinks" onclick="showTab(event, '{{ e.example_name }}-yaml')">YAML</button> -->
     <!-- <button class="tablinks" onclick="showTab(event, '{{ e.example_name }}-css')">CSS</button> -->
   </div>
 
