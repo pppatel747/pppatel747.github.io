@@ -8,7 +8,7 @@ floorplan_example:
   
 ---
 
-## Floorplan-Home
+## Floorplan-Home-Demo
 
 Here is the demo of the floorplan. You can click on rooms and visualise lights turning on and off animations. also other graphics can displayes and animated.
 
