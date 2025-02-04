@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Floorplan basics
-permalink: /My_floorplan/examples
+permalink: /floorplan/examples
 floorplan_example:
   - example_name: "floorplanner_home"
     example_classes: "size-auto"
