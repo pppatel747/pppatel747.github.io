@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Floorplan basics
+title: Floorplan Example
 permalink: /floorplan/
   
 ---
